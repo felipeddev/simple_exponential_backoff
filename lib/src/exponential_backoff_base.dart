@@ -44,11 +44,11 @@ import 'backoff_base.dart';
 ///
 ///  result.fold(
 ///    (error) {
-///      //Left(Exception): handel the error
+///      //Left(Exception): handle the error
 ///      print(error);
 ///    },
 ///   (response) {
-///     //Right(Response): handel the result
+///     //Right(Response): handle the result
 ///     print(response.body);
 ///    },
 ///  );

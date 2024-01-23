@@ -41,7 +41,7 @@ void main() async {
     retryIf: (e) => e is SocketException || e is TimeoutException,
   );
 
-  /// You can handel the result in two ways
+  /// You can handle the result in two ways
   /// * By checking if the result `isLeft` or `isRight`. and get the value accordingly.
   /// * Using the fold function `result.fold((error){},(data){})`. will call the
   ///   first(Left) function if the result is error otherwise will call second
@@ -51,11 +51,11 @@ void main() async {
 
   // using if check
   if (result.isLeft()) {
-    //Left(Exception): handel the error
+    //Left(Exception): handle the error
     final error = result.getLeftValue();
     print(error);
   } else {
-    //Right(Response): handel the result
+    //Right(Response): handle the result
     final response = result.getRightValue();
     print(response.body);
   }
@@ -63,11 +63,11 @@ void main() async {
   // using fold:
   result.fold(
     (error) {
-      //Left(Exception): handel the error
+      //Left(Exception): handle the error
       print(error);
     },
     (response) {
-      //Right(Response): handel the result
+      //Right(Response): handle the result
       print(response.body);
     },
   );
