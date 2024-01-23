@@ -1,4 +1,4 @@
-# Exponential Backoff Dart Package
+# Simple Exponential Backoff
 
 A Dart implementation of Google's Exponential Backoff algorithm, designed to efficiently handle retries in case of failures.
 
@@ -18,7 +18,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  exponential_backoff: ^0.1.0
+  simple_exponential_backoff: ^0.1.0
 ```
 
 Then, run:
@@ -30,7 +30,7 @@ dart pub get
 Now, you can import the package in your Dart code:
 
 ```dart
-import 'package:exponential_backoff/simple_exponential_backoff.dart';
+import 'package:simple_exponential_backoff/simple_exponential_backoff.dart';
 
 void main() async {
   final exponentialBackOff = ExponentialBackoff();
@@ -84,15 +84,16 @@ For more detailed examples, check the `/example` folder in the repository.
 
 ## Additional information
 
-For more information about the Exponential Backoff Dart package, check out the [official documentation](https://link-to-your-documentation).
+For more information about the Exponential Backoff Dart package, check out the [official documentation](https://github.com/felipeddev/simple_exponential_backoff).
 
 ### How to Contribute
 
-We welcome contributions! If you want to contribute to the development of this package, please check the [contribution guidelines](https://link-to-contribution-guidelines).
+We welcome contributions! If you want to contribute to the development of 
+this package, please check the [contribution guidelines](CONTRIBUTION_GUIDELINE.md).
 
 ### Issues
 
-If you encounter any issues or have suggestions, please feel free to [file an issue](https://github.com/felipeddev/exponential_backoff/issues/new).
+If you encounter any issues or have suggestions, please feel free to [file an issue](https://github.com/felipeddev/simple_exponential_backoff/issues/new).
 We appreciate your feedback and will respond promptly.
 
 ### License
