@@ -3,7 +3,5 @@
  *
  * Created by Felipe D. Silva on 23/1/2024.
  */
-
-library;
-
-export 'src/src.dart';
+export 'backoff_base.dart';
+export 'exponential_backoff_base.dart';
