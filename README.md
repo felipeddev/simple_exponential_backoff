@@ -30,7 +30,7 @@ dart pub get
 Now, you can import the package in your Dart code:
 
 ```dart
-import 'package:exponential_backoff/exponential_backoff.dart';
+import 'package:exponential_backoff/simple_exponential_backoff.dart';
 
 void main() async {
   final exponentialBackOff = ExponentialBackoff();

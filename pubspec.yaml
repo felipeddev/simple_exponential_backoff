@@ -1,4 +1,4 @@
-name: exponential_backoff
+name: simple_exponential_backoff
 description: A package that provides an exponential backoff algorithm.
 version: 0.1.0+1
 homepage: https://github.com/felipeddev/exponential_backoff

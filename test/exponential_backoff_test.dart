@@ -6,8 +6,8 @@
 
 import 'dart:math';
 
-import 'package:exponential_backoff/exponential_backoff.dart';
 import 'package:simple_either/simple_either.dart';
+import 'package:simple_exponential_backoff/simple_exponential_backoff.dart';
 import 'package:test/test.dart';
 
 class TestException implements Exception {

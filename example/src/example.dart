@@ -7,8 +7,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:exponential_backoff/exponential_backoff.dart';
 import 'package:http/http.dart';
+import 'package:simple_exponential_backoff/simple_exponential_backoff.dart';
 
 void main() async {
   // With the default configuration it will be retried up-to 10 times,
